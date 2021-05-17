@@ -16,7 +16,7 @@ import protocolsupport.api.events.PlayerLoginStartEvent;
 public class BlockVersion extends JavaPlugin implements Listener {
 	
 String mode = "whitelist";
-String kickmessage = "&4Theis version of MineCraft is not supported by this server.";
+String kickmessage = "&4This version of minecraft is not supported. Please update your client";
 List<String> versions = new ArrayList<String>();
 String fallbackserver = "";
 
